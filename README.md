@@ -15,7 +15,7 @@ We use labelled metadata from the National Digital Library of India (NDLI) to tr
 
 TEST SET
 
-A manually-annotated corpus of personal name is prepared to test the performance of our tool. The test set if freely available.
+A manually-annotated corpus of personal names is prepared to test the performance of our tool. The test set if freely available.
 
 
 TEST RESULTS
