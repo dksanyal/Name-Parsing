@@ -1,5 +1,4 @@
 # Name-Annotation
-This is part of a project on automatic annotation of personal names.
 
 Personal names often need to be represented in a consistent format in an application. For example, in a library author names are often represented as <LASTNAME, SUFFIX, FORENAME>. It is a particular challenge encountered while curating metadata in a digital library. Part of the challenge stems from the diverse nationalities of the authors. 
 
