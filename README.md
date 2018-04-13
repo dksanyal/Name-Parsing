@@ -10,7 +10,7 @@ Examples:
 
 
 We devise a new machine learning-based tool to annotate a personal name precisely into these 3 components. This new technique helps us avoid the need of experts in framing rules for name annotation. Specifically, we use bidirectional LSTM to learn name annotations.
-We use labelled metadata from the National Digital Library of India (NDLI) to train the LSTM. Most of the training data comprises author names from scholarly papers in PubMed and SpringerLink.
+We use labelled metadata from the National Digital Library of India (NDLI) to train the LSTM. Most of the training data comprises author names from scholarly papers in PubMed and SpringerLink indexed by NDLI.
 
 
 TEST SET
