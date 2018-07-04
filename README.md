@@ -4,26 +4,17 @@ Personal names often need to be represented in a consistent format in an applica
 
 Examples: 
 
-"Rena Torres Cacoullos"   => LASTNAME = "Torres Cacoullos", FORENAME = "Rena"
-
-"Raymond J. Lawrence Jr." => LASTNAME = "Lawrence", SUFFIX = "Jr.", FORENAME = "Raymond J."
+"Raymond J. Lawrence Jr." => LASTNAME = "Lawrence", SUFFIX = "Jr.", FIRSTNAME = "Raymond J."
 
 
-We devise a new machine learning-based tool to annotate a personal name precisely into these 3 components. This new technique helps us avoid the need of experts in framing rules for name annotation. Specifically, we use bidirectional LSTM to learn name annotations.
-We use labelled metadata from the National Digital Library of India (NDLI) to train the LSTM. Most of the training data comprises author names from scholarly papers in PubMed and SpringerLink indexed by NDLI.
+We devise a new machine learning-based tool to annotate a personal name into these components. This new technique helps us avoid the need of experts in framing rules for name annotation. Specifically, we use LSTM to learn name annotations.
+We use labelled metadata from the National Digital Library of India (NDLI) to train the LSTM. Currently the training data comprises author names from scholarly papers in PubMed Central indexed by NDLI.
 
 
-TEST SET
+DATASET
 
-A manually-annotated corpus of personal names is prepared to test the performance of our tool. The test set is freely available for research purpose.
-
-
-TEST RESULTS
-
-We achieved an accuracy of 86\% on the above test set.
+An annotated corpus of personal names is prepared to test the performance of our tool. The dataset is freely available for research purpose.
 
 
-DEMO
 
-An online demo is available for public use.
 
