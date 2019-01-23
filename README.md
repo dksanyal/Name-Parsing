@@ -20,9 +20,11 @@ Code to compare outputs with golden annotations: compare.py
 
 ## DATASET
 
-We use labelled metadata from the National Digital Library of India (NDLI) to train and test our parsers. It comprises author names from scholarly IEEE publications indexed by NDLI. The dataset is freely available for research purpose. 
+We use labelled metadata from the National Digital Library of India (NDLI) to train and test our parsers. It comprises author names from scholarly IEEE publications indexed by NDLI.
 
 Training subset: train.names, train.states. Test subset: test.names, test.states.
+
+The code and dataset are freely available for research purpose. We request you to kindly acknowlege this source in case you use them for your purpose.
 
 
 
