@@ -1,5 +1,5 @@
 import sys
-class Hmmcompare:
+class ResultCompare:
     def compare(self, filename1, filename2):
         file1 = open(filename1, 'r')      
         file2 = open(filename2, 'r')     
@@ -26,5 +26,5 @@ class Hmmcompare:
 if __name__ == '__main__':
     file1 = sys.argv[1]
     file2 = sys.argv[2]
-    model = Hmmcompare()
+    model = ResultCompare()
     model.compare(file1, file2)
