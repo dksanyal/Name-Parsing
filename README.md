@@ -13,7 +13,7 @@ We devise a new machine learning-based tool to annotate a personal name into the
 
 LSTM code: wordBRLSTM.py, characterBRLSTM.py, seq2seq_utils.py (Note: It is trivial to change the models to unidirectional RNN.)
 
-HMM code: hmmlearn.py (HMM with Laplace smoothing), hmmlearnabs.py (HMM with Absolute discounting), hmmdecode.py (Viterbi algorithm)
+HMM code: hmmlearn.py (HMM with Laplace smoothing), hmmlearnabs.py (HMM with absolute discounting), hmmdecode.py (Viterbi algorithm)
 
 Code to compare outputs with golden annotations: compare.py
 
