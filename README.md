@@ -1,4 +1,4 @@
-# Name-Annotation
+# Name-Segmentation
 
 Personal names often need to be represented in a consistent format in an application. For example, in a library catalog or bibliography, author names are often represented as <LASTNAME, REMAININGNAME, SUFFIX>, or <LN, RN, SFX>. It is a particular challenge encountered while curating metadata in a digital library. A library may receive a resource like a book or a research paper from which it has to extract the relevant metadata. Part of the challenge in name annotation stems from the diverse nationalities of the authors. 
 
