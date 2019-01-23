@@ -13,7 +13,7 @@ We use labelled metadata from the National Digital Library of India (NDLI) to tr
 
 DATASET
 
-An annotated corpus of personal names is prepared to test the performance of our tool. The dataset is freely available for research purpose.
+An annotated corpus of personal names is prepared to test the performance of our tool. The dataset is freely available for research purpose. Training subset: train.names, train.states. Test subset: test.names, test.states.
 
 
 
