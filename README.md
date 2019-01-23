@@ -8,12 +8,19 @@ Example:
 
 
 We devise a new machine learning-based tool to annotate a personal name into these components. This new technique helps us avoid the need of experts in framing rules for name annotation. Specifically, we use an LSTM network to learn name annotations. We compare our results with HMM as a baseline. The best results are obtained with character-level Bidirectional LSTM network.
-We use labelled metadata from the National Digital Library of India (NDLI) to train the LSTM. Currently the training data comprises author names from scholarly IEEE publications indexed by NDLI.
+
+## CODE
+
+LSTM code: wordBRLSTM.py, characterBRLSTM.py, seq2seq_utils.py (Note: It is trivial to change the models to unidirectional RNN.)
+
+HMM code: hmmlearn.py (HMM with Laplace smoothing), hmmlearnabs.py (HMM with Absolute discounting), hmmdecode.py (Viterbi algorithm), hmmcompare.py (evaluate HMM by comparing output names with golden annotations)
 
 
-DATASET
+## DATASET
 
-An annotated corpus of personal names is prepared to test the performance of our tool. The dataset is freely available for research purpose. Training subset: train.names, train.states. Test subset: test.names, test.states.
+We use labelled metadata from the National Digital Library of India (NDLI) to train and test our parsers. Currently the training data comprises author names from scholarly IEEE publications indexed by NDLI. The dataset is freely available for research purpose. 
+
+Training subset: train.names, train.states. Test subset: test.names, test.states.
 
 
 
