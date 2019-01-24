@@ -24,7 +24,7 @@ We use labelled metadata from the National Digital Library of India (NDLI) to tr
 
 Training subset: train.names, train.states. Test subset: test.names, test.states.
 
-The code and dataset are freely available for research purpose. We request you to kindly acknowlege this source in case you use them for your purpose.
+The code and dataset are freely available for research. We request you to kindly acknowlege this source in case you use them for your purpose.
 
 
 
