@@ -13,18 +13,18 @@ We devise a new machine learning-based tool to annotate a personal name into the
 
 Please bring the scripts to the same folder as the data before running.
 
-LSTM code: word/seq2seq.py, word/seq2seq_utils.py, char/seq2seq.py, char/seq2seq_utils.py (Note: It is trivial to change the models to unidirectional RNN.)
+LSTM code: word_seq2seq.py, word_seq2seq_utils.py, char_seq2seq.py, char_seq2seq_utils.py (Note: It is trivial to change the models to unidirectional RNN.)
 
-HMM code: hmm/hmmlearn.py (HMM with Laplace smoothing), hmm/hmmlearnabs.py (HMM with absolute discounting), hmm/hmmdecode.py (Viterbi algorithm)
+HMM code: hmmlearn.py (HMM with Laplace smoothing), hmmlearnabs.py (HMM with absolute discounting), hmmdecode.py (Viterbi algorithm)
 
-Code to compare outputs with golden annotations: eval/resultcompare.py
+Code to compare outputs with golden annotations: resultcompare.py
 
 
 ## DATASET
 
 We use labelled metadata from the National Digital Library of India (NDLI) to train and test our parsers. It comprises author names from scholarly IEEE publications indexed by NDLI.
 
-Training subset: data/train.names, data/train.states. Test subset: data/test.names, data/test.states.
+Training subset: train.names, train.states. Test subset: test.names, test.states.
 
 The code and dataset are freely available for research. We request you to kindly acknowlege this source in case you use them for your purpose.
 
