@@ -4,7 +4,7 @@ Personal names often need to be represented in a consistent format in an applica
 
 Example: 
 
-"Raymond J. Lawrence Jr." => LN = "Lawrence", SFX = "Jr.", RN = "Raymond J."
+"Raymond Lawrence Jr." => LN = "Lawrence", SFX = "Jr.", RN = "Raymond"
 
 
 We devise a new machine learning-based tool to annotate a personal name into these components. This new technique helps us avoid the need of experts in framing rules for name annotation. Specifically, we use an LSTM network to learn name annotations. We compare our results with HMM as a baseline. The best results are obtained with character-level Bidirectional LSTM network.
