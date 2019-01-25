@@ -9,6 +9,8 @@ Example:
 
 We devise a new machine learning-based tool to annotate a personal name into these components. This new technique helps us avoid the need of experts in framing rules for name annotation. Specifically, we use an LSTM network to learn name annotations. We compare our results with HMM as a baseline. The best results are obtained with character-level Bidirectional LSTM network.
 
+[The code and data will be soon available.]
+
 ## CODE
 
 LSTM code: word_seq2seq.py, word_seq2seq_utils.py, char_seq2seq.py, char_seq2seq_utils.py (Note: It is trivial to change the models to unidirectional RNN.)
