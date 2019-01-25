@@ -11,8 +11,6 @@ We devise a new machine learning-based tool to annotate a personal name into the
 
 ## CODE
 
-Please bring the scripts to the same folder as the data before running.
-
 LSTM code: word_seq2seq.py, word_seq2seq_utils.py, char_seq2seq.py, char_seq2seq_utils.py (Note: It is trivial to change the models to unidirectional RNN.)
 
 HMM code: hmmlearn.py (HMM with Laplace smoothing), hmmlearnabs.py (HMM with absolute discounting), hmmdecode.py (Viterbi algorithm)
