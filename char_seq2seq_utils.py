@@ -1,3 +1,4 @@
+#Character seq-to-seq model
 from __future__ import print_function
 from keras.preprocessing.text import text_to_word_sequence,Tokenizer
 from keras.models import Sequential
