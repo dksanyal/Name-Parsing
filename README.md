@@ -11,11 +11,13 @@ We devise a new machine learning-based tool to annotate a personal name into the
 
 ## CODE
 
-LSTM code: Present in CodeAndData/code/DL. The paths of training and test data in the python files must be updated.
+LSTM code: Present in CodeAndData/code/DL. The paths of training and test data in the python files MUST be updated.
+
 HMM code: Present in CodeAndData/code/HMM. Files: hmmlearn.py (HMM with Laplace smoothing), hmmlearnabs.py (HMM with absolute discounting), hmmdecode.py (Viterbi algorithm)
 
 Code to compare outputs with golden annotations: resultcompare.py 
 
+Code uses Python 2.7.
 
 ## DATASET
 
