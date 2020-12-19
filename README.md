@@ -9,25 +9,23 @@ Example:
 
 We devise a new machine learning-based tool to annotate a personal name into these components. This new technique helps us avoid the need of experts in framing rules for name annotation. Specifically, we use an BiLSTM network to learn name annotations. We compare our results with HMM as a baseline. The best results are obtained with character-level Bidirectional LSTM network.
 
-[The code and data will be available soon.]
-
 ## CODE
 
-LSTM code: word_seq2seq.py, word_seq2seq_utils.py, char_seq2seq.py, char_seq2seq_utils.py (Note: It is trivial to change the models to unidirectional LSTM network.)
+LSTM code: Present in CodeAndData/code/DL. The paths of training and test data in the python files must be updated.
+HMM code: Present in CodeAndData/code/HMM. Files: hmmlearn.py (HMM with Laplace smoothing), hmmlearnabs.py (HMM with absolute discounting), hmmdecode.py (Viterbi algorithm)
 
-HMM code: hmmlearn.py (HMM with Laplace smoothing), hmmlearnabs.py (HMM with absolute discounting), hmmdecode.py (Viterbi algorithm)
-
-Code to compare outputs with golden annotations: resultcompare.py
+Code to compare outputs with golden annotations: resultcompare.py 
 
 
 ## DATASET
 
-We use labelled metadata from the National Digital Library of India (NDLI) to train and test our parsers. It comprises author names from scholarly IEEE publications indexed by NDLI.
+We use metadata from the National Digital Library of India (NDLI) to train and test our parsers. It comprises author names from scholarly IEEE publications indexed by NDLI. The name components have been labeled by a rule-based system with some manual post-processing.
 
-Training subset: train.names, train.states. Test subset: test.names, test.states.
+Training subset: train_names.txt, train_states.txt.  
+Test subset: test_names.txt, test_states.txt
 
-The code and dataset are freely available for research. We request you to kindly acknowlege this source in case you use them for your purpose.
+The code and dataset are freely available for research. We request you to kindly cite the following paper in case you use the code and/or data or just find the paper useful for your research.
 
-
+Santosh T.Y.S.S., Sanyal D.K., Das P.P. (2020) Person Name Segmentation with Deep Neural Networks. In: B. R. P., Thenkanidiyoor V., Prasath R., Vanga O. (eds) Mining Intelligence and Knowledge Exploration. MIKE 2019. Lecture Notes in Computer Science, vol 11987. Springer, Cham.
 
 
